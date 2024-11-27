@@ -8,5 +8,6 @@ data class task(
     var nama: String,
     var tanggal: String,
     var deskripsi: String,
-    var status: String
+    var status: String,
+    var statusJson:Boolean
 ): Parcelable

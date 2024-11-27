@@ -33,7 +33,8 @@ class createTask : AppCompatActivity() {
                     _etNama.text.toString(),
                     _etTanggal.text.toString(),
                     _etDeskripsi.text.toString(),
-                    task2.status
+                    task2.status,
+                    task2.statusJson
                 )
                 MainActivity.positionUpdate = position.toInt()
                 finish()
@@ -44,7 +45,8 @@ class createTask : AppCompatActivity() {
                     _etNama.text.toString(),
                     _etTanggal.text.toString(),
                     _etDeskripsi.text.toString(),
-                    "Not Started"
+                    "Not Started",
+                    false
                 )
                 finish()
             }
